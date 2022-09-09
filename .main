@@ -1,0 +1,33 @@
+CREATE TABLE alunos (
+    RA INT NOT NULL,
+    NOME VARCHAR(40) NOT NULL,
+    SOBRENOME VARCHAR(40) NOT NULL,
+    GENERO VARCHAR(15) NOT NULL );
+    
+INSERT INTO alunos (ra,nome,sobrenome,genero)
+VALUES ('22003967','Gabriel','Yamamoto','Homem');
+
+INSERT INTO alunos (ra,nome,sobrenome,genero)
+VALUES ('22005252','Arthur','Maluf','Homem');
+
+INSERT INTO alunos (ra,nome,sobrenome,genero)
+VALUES ('22002241','João','Pamponet','Homem');
+
+INSERT INTO alunos (ra,nome,sobrenome,genero)
+VALUES ('22005768','Vinicius','Galassi','Homem');
+
+CREATE TABLE professor(
+    RP  INT NOT NULL,
+    NOME VARCHAR(40) NOT NULL,
+    SOBRENOME VARCHAR(40) NOT NULL);
+
+INSERT INTO professor (rp,nome,sobrenome)
+VALUES ('19992547','Leandro','Xastre');
+
+CREATE TABLE materias(
+    id_mat INT NOT NULL,
+    NOME VARCHAR(40) NOT NULL,
+    qtd_cred INT NOT NULL);
+
+INSERT INTO materias (id_mat,nome,qtd_cred)
+VALUES ('2','Cálculo II','10000');
