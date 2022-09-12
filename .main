@@ -9,11 +9,11 @@ CREATE TABLE materias(
 
 
 --Inserindo valores para o tabela de matérias
-INSERT INTO materias (id_mat,nome,qtd_cred) VALUES ('12902','PI: DESENVOLVIMENTO DE SISTEMAS WEB ','2'); 
-INSERT INTO materias (id_mat,nome,qtd_cred) VALUES ('12901','ROBOTICA COMPUTACIONAL','2');
-INSERT INTO materias (id_mat,nome,qtd_cred) VALUES ('11445','CALCULO I','2');
+INSERT INTO materias (id_mat,nome,qtd_cred) VALUES ('12902','PI: DESENVOLVIMENTO DE SISTEMAS WEB ','4'); 
+INSERT INTO materias (id_mat,nome,qtd_cred) VALUES ('12901','ROBOTICA COMPUTACIONAL','4');
+INSERT INTO materias (id_mat,nome,qtd_cred) VALUES ('11445','CALCULO I','4');
 INSERT INTO materias (id_mat,nome,qtd_cred) VALUES ('11135','TEOLOGIA E FENOMENO HUMANO','2');
-INSERT INTO materias (id_mat,nome,qtd_cred) VALUES ('12903','ORGANIZACAO DE SISTEMAS DE COMPUTACAO','2');
+INSERT INTO materias (id_mat,nome,qtd_cred) VALUES ('12903','ORGANIZACAO DE SISTEMAS DE COMPUTACAO','4');
 INSERT INTO materias (id_mat,nome,qtd_cred) VALUES ('12902P','PI: DESENVOLVIMENTO DE SISTEMAS WEB (Pratica)','2');
 INSERT INTO materias (id_mat,nome,qtd_cred) VALUES ('12901P','ROBOTICA COMPUTACIONAL (Pratica)','2');
 INSERT INTO materias (id_mat,nome,qtd_cred) VALUES ('11445P','CALCULO I (Pratica)','2');
