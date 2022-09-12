@@ -36,6 +36,7 @@ INSERT INTO professor (nome,sobrenome) VALUES ('Vinicius','Simionatto');    --Rp
 INSERT INTO professor (nome,sobrenome) VALUES ('Danilo','Rodrigues');       --Rp 5
 INSERT INTO professor (nome,sobrenome) VALUES ('Sergio','Marques');         --Rp 6
 INSERT INTO professor (nome,sobrenome) VALUES ('Dimas','Lemes');            --Rp 7
+INSERT INTO professor (nome,sobrenome) VALUES ('Alexandre','Monteiro');     --Rp 8
 
 
 --Criação de uma tabela para a relação de professores e matéras
@@ -59,6 +60,7 @@ INSERT INTO professor_materias VALUES ('11445','3');
 INSERT INTO professor_materias VALUES ('11135','5');
 INSERT INTO professor_materias VALUES ('12903','2');
 INSERT INTO professor_materias VALUES ('12903P','2');
+INSERT INTO professor_materias VALUES ('11445P','8');
 
 
 --Criação de uma tabela para os alunos
@@ -141,4 +143,3 @@ ORDER BY alunos.ra;
 
 --Comando para mostrar qualquer outra tabela 
 -- SELECT * FROM <nome da tabela>
-
