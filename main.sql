@@ -1,5 +1,5 @@
-
-
+CREATE DATABASE puccamp;
+\c puccamp
 
 --Criação de tabela para as disciplinas
 CREATE TABLE disciplinas(                
